@@ -15,6 +15,8 @@ final class CountryDetailViewModelTests: XCTestCase {
     }
     
     override func tearDownWithError() throws {
+        MockURLProtocol.error = nil
+        MockURLProtocol.requestHandler = nil
         URLProtocol.unregisterClass(MockURLProtocol.self)
     }
     
@@ -103,5 +105,4 @@ final class CountryDetailViewModelTests: XCTestCase {
             startOfWeek: "Monday",
             capitalInfo: nil)]
     }
-    
 }
