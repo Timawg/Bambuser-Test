@@ -41,12 +41,16 @@ struct CountryDetailView: View {
                                 region: $viewModel.region,
                                 width: reader.size.width
                             )
+                            .allowsHitTesting(/*@START_MENU_TOKEN@*/false/*@END_MENU_TOKEN@*/)
                             Spacer()
                         }
 
-                        VStack(alignment: .center) {
+                        VStack(alignment: .center, spacing: 5) {
                             ForEach(viewModel.metaData, id: \.self) { text in
                                 Text(text)
+                                    .multilineTextAlignment(.center)
+                                Divider()
+                                    .frame(maxWidth: 45)
                             }
                         }
                     }

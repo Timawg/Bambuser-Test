@@ -11,7 +11,7 @@
 		F57352DD2B0D65EC0075DB60 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352DC2B0D65EC0075DB60 /* CountryListView.swift */; };
 		F57352DF2B0D65EE0075DB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57352DE2B0D65EE0075DB60 /* Assets.xcassets */; };
 		F57352E22B0D65EE0075DB60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57352E12B0D65EE0075DB60 /* Preview Assets.xcassets */; };
-		F57352EC2B0D65EE0075DB60 /* Bambuser_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352EB2B0D65EE0075DB60 /* Bambuser_TestTests.swift */; };
+		F57352EC2B0D65EE0075DB60 /* CountryDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352EB2B0D65EE0075DB60 /* CountryDetailViewModelTests.swift */; };
 		F57352F62B0D65EE0075DB60 /* Bambuser_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352F52B0D65EE0075DB60 /* Bambuser_TestUITests.swift */; };
 		F57352F82B0D65EE0075DB60 /* Bambuser_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57352F72B0D65EE0075DB60 /* Bambuser_TestUITestsLaunchTests.swift */; };
 		F57353082B0D6E450075DB60 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57353072B0D6E450075DB60 /* Endpoint.swift */; };
@@ -29,6 +29,9 @@
 		F57353252B0F33900075DB60 /* ColorSchemeProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57353242B0F33900075DB60 /* ColorSchemeProxy.swift */; };
 		F573532B2B0F608A0075DB60 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573532A2B0F608A0075DB60 /* CountryListViewModel.swift */; };
 		F573532D2B0F61470075DB60 /* CountryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573532C2B0F61470075DB60 /* CountryDetailViewModel.swift */; };
+		F573532F2B0FA3730075DB60 /* ColorSchemeProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573532E2B0FA3730075DB60 /* ColorSchemeProxyTests.swift */; };
+		F57353312B0FA5160075DB60 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57353302B0FA5160075DB60 /* MockURLProtocol.swift */; };
+		F57353332B0FA6880075DB60 /* GetCountriesRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57353322B0FA6880075DB60 /* GetCountriesRequestTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +58,7 @@
 		F57352DE2B0D65EE0075DB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F57352E12B0D65EE0075DB60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F57352E72B0D65EE0075DB60 /* Bambuser-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bambuser-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F57352EB2B0D65EE0075DB60 /* Bambuser_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bambuser_TestTests.swift; sourceTree = "<group>"; };
+		F57352EB2B0D65EE0075DB60 /* CountryDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewModelTests.swift; sourceTree = "<group>"; };
 		F57352F12B0D65EE0075DB60 /* Bambuser-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bambuser-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57352F52B0D65EE0075DB60 /* Bambuser_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bambuser_TestUITests.swift; sourceTree = "<group>"; };
 		F57352F72B0D65EE0075DB60 /* Bambuser_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bambuser_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -74,6 +77,9 @@
 		F57353242B0F33900075DB60 /* ColorSchemeProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeProxy.swift; sourceTree = "<group>"; };
 		F573532A2B0F608A0075DB60 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
 		F573532C2B0F61470075DB60 /* CountryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewModel.swift; sourceTree = "<group>"; };
+		F573532E2B0FA3730075DB60 /* ColorSchemeProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeProxyTests.swift; sourceTree = "<group>"; };
+		F57353302B0FA5160075DB60 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		F57353322B0FA6880075DB60 /* GetCountriesRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCountriesRequestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +151,10 @@
 		F57352EA2B0D65EE0075DB60 /* Bambuser-TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				F57352EB2B0D65EE0075DB60 /* Bambuser_TestTests.swift */,
+				F57352EB2B0D65EE0075DB60 /* CountryDetailViewModelTests.swift */,
+				F573532E2B0FA3730075DB60 /* ColorSchemeProxyTests.swift */,
+				F57353302B0FA5160075DB60 /* MockURLProtocol.swift */,
+				F57353322B0FA6880075DB60 /* GetCountriesRequestTests.swift */,
 			);
 			path = "Bambuser-TestTests";
 			sourceTree = "<group>";
@@ -382,7 +391,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57352EC2B0D65EE0075DB60 /* Bambuser_TestTests.swift in Sources */,
+				F57353312B0FA5160075DB60 /* MockURLProtocol.swift in Sources */,
+				F57353332B0FA6880075DB60 /* GetCountriesRequestTests.swift in Sources */,
+				F57352EC2B0D65EE0075DB60 /* CountryDetailViewModelTests.swift in Sources */,
+				F573532F2B0FA3730075DB60 /* ColorSchemeProxyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CountryDetails: Decodable {
+struct CountryDetails: Codable {
     let name: Name
     let tld: [String]
     let cca2, ccn3, cca3: String?
@@ -17,7 +17,6 @@ struct CountryDetails: Decodable {
     let unMember: Bool
     let capital, altSpellings: [String]?
     let region, subregion: String?
-    let translations: [String: Translation]
     let latlng: [Double]?
     let landlocked: Bool
     let borders: [String]?

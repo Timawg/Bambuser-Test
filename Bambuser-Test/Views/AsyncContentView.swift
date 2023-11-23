@@ -8,10 +8,20 @@
 import Foundation
 import SwiftUI
 
-enum ViewState {
+enum ViewState: Equatable {
     case loading
     case completed
     case failure(error: Error)
+    
+    static func == (lhs: ViewState, rhs: ViewState) -> Bool {
+        switch (lhs, rhs) {
+        case (.completed, .completed): return true
+        case (.loading, .loading): return true
+        case (.failure(error: _), .failure(error: _)):
+            return true
+        default: return false
+        }
+    }
 }
 
 struct AsyncContentView<Content: View>: View {

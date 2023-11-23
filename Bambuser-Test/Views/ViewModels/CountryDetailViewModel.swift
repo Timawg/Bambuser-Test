@@ -38,7 +38,14 @@ final class CountryDetailViewModel: ObservableObject {
     }
     
     var metaData: [String] {
-        return [capital, population, area, regionText, timezones, independence].compactMap { $0 }
+        return [
+            capital, 
+            population,
+            area,
+            regionText,
+            timezones,
+            independence
+        ].compactMap { $0 }
     }
     
     private var capital: String? {
@@ -59,7 +66,7 @@ final class CountryDetailViewModel: ObservableObject {
         guard let population = countryDetails?.population else {
             return nil
         }
-        return "Population: \(population)"
+        return "Population: \(population.formatted())"
     }
     
     private var area: String? {
@@ -67,7 +74,7 @@ final class CountryDetailViewModel: ObservableObject {
             return nil
         }
         
-        return "Area: \(area) km2"
+        return "Area: \(area.formatted()) km\u{00B2}"
     }
     
    private var timezones: String? {

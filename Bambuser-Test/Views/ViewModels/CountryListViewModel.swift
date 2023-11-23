@@ -25,9 +25,9 @@ final class CountryListViewModel: ObservableObject {
         case .name:
             return nil
         case .population:
-            return "Population: \(country.population)"
+            return "Population: \(country.population.formatted())"
         case .area:
-            return "Area: \(country.area) km2"
+            return "Area: \(country.area.formatted()) km\u{00B2}"
         }
     }
     

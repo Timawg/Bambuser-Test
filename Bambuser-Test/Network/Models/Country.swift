@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Country
-struct Country: Decodable, Identifiable, Hashable {
+struct Country: Codable, Identifiable, Hashable {
 
     let name: Name
     let cca2, flag: String
@@ -29,7 +29,7 @@ struct Country: Decodable, Identifiable, Hashable {
 }
 
 // MARK: - Name
-struct Name: Decodable {
+struct Name: Codable {
     let common, official: String
 }
 
